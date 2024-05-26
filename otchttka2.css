@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url("photo1713969362\ 1.png");
+}
+.caption{
+    color: aliceblue; 
+    font-size: 200%;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    color: aliceblue;
+    font-size: 150%;
+    width: 70%;
+    padding: 5%;
+}
+.picture{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    margin-top: 10%;
+}
+.picture1{
+    width: 10%;
+    height: 8vh;
+    margin-left: 7%;
+}
+.picture2{
+    width: 10%;
+    height: 8vh;
+}
+.picture3{
+    width: 10%;
+    height: 8vh;
+}
+.tt1{
+color: aliceblue;
+margin-left: 7%;
+}
+.tt2{
+    color: aliceblue;
+}
+.tt3{
+    color: aliceblue;
+}
+.avatarka{
+    width: 3%;
+    margin-left: 5%;
+}

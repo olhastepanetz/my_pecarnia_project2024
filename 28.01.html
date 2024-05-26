@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="28.01.css">
+</head>
+<body>
+    <header class="fon"  >
+        <div>
+            <a href="index.html"><img class="avatarka" src="bakery-illustration-on-blackboard_1008-2.jpg"></a>
+        </div>
+        <div class="searchBox">
+                <input id="searchField" type="search">
+                <button onclick="search()">Поиск</button>
+        </div>
+        <div class="basketBox" onclick="openBasket()">
+            <p id="basketSumma">Корзина пуста </p>
+
+        </div>
+    </header>
+    <dialog id="dialogBasket">
+        <h2>Корзина</h2>
+        <p id="spisokTovarov">Списрок товаров</p>
+        <p id="summaTovarov">Сумма покупок</p>
+        <form method="dialog">
+            <button>Закрыть </button>
+        </form>
+    </dialog>
+    <main>
+     <div class="catalog" id="catalog">
+            <div class="cardTovar">
+                <img class="image">
+                <h2 class="name"></h2>
+                <p class="opis"></p>
+                <p class="cost">Цена:</p>
+                <button class="buttonAddBasket">Добавить</button>
+            </div>
+  
+
+            <div class="cardTovar">
+                <img class="image">
+                <h2 class="name"></h2>
+                <p class="opis"></p>
+                <p class="cost">Цена:</p>
+                <button class="buttonAddBasket">Добавить</button>
+            </div>
+ 
+            <div class="cardTovar">
+                <img class="image">
+                <h2 class="name"></h2>
+                <p class="opis"></p>
+                <p class="cost">Цена:</p>
+                <button class="buttonAddBasket">Добавить</button>
+            </div>
+
+            <div class="cardTovar">
+                <img class="image">
+                <h2 class="name"></h2>
+                <p class="opis"></p>
+                <p class="cost">Цена:</p>
+                <button class="buttonAddBasket">Добавить</button>
+            </div>
+
+            <div class="cardTovar">
+                <img class="image">
+                <h2 class="name"></h2>
+                <p class="opis"></p>
+                <p class="cost">Цена:</p>
+                <button class="buttonAddBasket">Добавить</button>
+            </div> 
+            <div class="cardTovar">
+                <img class="image">
+                <h2 class="name"></h2>
+                <p class="opis"></p>
+                <p class="cost">Цена:</p>
+                <button class="buttonAddBasket">Добавить</button>
+            </div> 
+            <div class="cardTovar">
+                <img class="image">
+                <h2 class="name"></h2>
+                <p class="opis"></p>
+                <p class="cost">Цена:</p>
+                <button class="buttonAddBasket">Добавить</button>
+            </div> 
+            <div class="cardTovar">
+                <img class="image">
+                <h2 class="name"></h2>
+                <p class="opis"></p>
+                <p class="cost">Цена:</p>
+                <button class="buttonAddBasket">Добавить</button>
+            </div> 
+            <div class="cardTovar">
+                <img class="image">
+                <h2 class="name"></h2>
+                <p class="opis"></p>
+                <p class="cost">Цена:</p>
+                <button class="buttonAddBasket">Добавить</button>
+            </div> 
+                </div>
+                <div id="resultSearch">
+                    <p id="textResultSearch"></p>
+                </div>
+
+    </main>
+    <script src="28.01.js"></script>
+</body>
+</html>
